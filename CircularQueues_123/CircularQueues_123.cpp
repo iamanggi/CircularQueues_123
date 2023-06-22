@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class Queues{
+class Queues {
 	int FRONT, REAR, Max = 5;
 	int Queue_Array[5];
 
@@ -21,5 +21,11 @@ public:
 			cout << "\nQueue overflow\n";
 			return;
 		}
+
+		// cek apakah antrian kosong 
+		if (FRONT == -1) {						// STEP 1 
+			FRONT = 0;							// STEP 1.a
+			REAR = 0;							// STEP 1.b
+		}
 	}
-}
+};
