@@ -85,6 +85,13 @@ public:
 				FRONT_POSITION++;
 			}
 			FRONT_POSITION = 0;
+
+			//iterasi dari awal array hingga REAR 
+			while (FRONT_POSITION <= REAR_POSITION) {
+				cout << Queue_Array[FRONT_POSITION] << "   ";
+				FRONT_POSITION++;
+			}
+			cout << endl;
 		}
 	}
 };
