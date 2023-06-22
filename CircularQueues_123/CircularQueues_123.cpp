@@ -78,5 +78,13 @@ public:
 			}
 			cout << endl;
 		}
+		else {
+			//jika FRONT_POSITION > REAR_POSITION, iterasi dari FRONT hingga akhir array
+			while (FRONT_POSITION <= Max - 1) {
+				cout << Queue_Array[FRONT_POSITION] << "   ";
+				FRONT_POSITION++;
+			}
+			FRONT_POSITION = 0;
+		}
 	}
 };
