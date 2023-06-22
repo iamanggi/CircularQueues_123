@@ -54,6 +54,8 @@ public:
 			//Jika element yang dihapus berada di posisi terakhir array, kembali ke awal array
 			if (FRONT == Max - 1)			//STEP 2
 				FRONT = 0;					//STEP 2.a
+			else
+				FRONT = FRONT + 1;			//STEP 3
 		}
 	}
 };
