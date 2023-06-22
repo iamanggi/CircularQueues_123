@@ -27,5 +27,11 @@ public:
 			FRONT = 0;							// STEP 1.a
 			REAR = 0;							// STEP 1.b
 		}
+		else {
+			//Jika REAR berada di posisi terakhir array, kembali ke awal array
+			if (REAR == Max - 1)				//STEP 2
+				REAR = 0;						//STEP 2.a
+		
+		}
 	}
 };
