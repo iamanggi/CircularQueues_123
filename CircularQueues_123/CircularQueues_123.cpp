@@ -50,5 +50,10 @@ public:
 			FRONT = -1;						//STEP 1.a
 			REAR = -1;						//STEP 1.b
 		}
+		else {
+			//Jika element yang dihapus berada di posisi terakhir array, kembali ke awal array
+			if (FRONT == Max - 1)			//STEP 2
+				FRONT = 0;					//STEP 2.a
+		}
 	}
 };
