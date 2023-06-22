@@ -33,7 +33,7 @@ public:
 				REAR = 0;						//STEP 2.a
 			else
 				REAR = REAR + 1;				//STEP 3	
-		
 		}
+		Queue_Array[REAR] = num;				//STEP 4
 	}
 };
