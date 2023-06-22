@@ -102,7 +102,7 @@ int main() {
 
 	while (true) {
 		try {
-			cout << "M E N U" << endl;
+			cout << "\nM E N U" << endl;
 			cout << "1. Implement insert operation" << endl;
 			cout << "2. Implement delete operation" << endl;
 			cout << "3. Display values" << endl;
@@ -133,6 +133,9 @@ int main() {
 			}
 			}
 		}
-
+		catch (exception& e) {
+			cout << "check for values entered." << endl;
+		}
 	}
+	return 0;
 }
