@@ -108,7 +108,16 @@ int main() {
 			cout << "3. Display values" << endl;
 			cout << "4. exit" << endl;
 			cout << "Enter your choice(1-4) : ";
+			cin >> ch;
+			cout << endl;
 
+			switch (ch) {
+			case'1': {
+				q.insert();
+				break;
+			}
+
+			}
 		}
 	}
 }
